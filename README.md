@@ -1,29 +1,38 @@
-# web-dev-starter
+# Fancy Letterhead Web Template
+By:Tristin Watkins CS408 9/30/2025
 
-This is a starter project for web development with no frameworks and minimal
-dependencies. It is intended to be a starting point for web development projects
-that are written in plain HTML, CSS, and JavaScript.
+This project is a **letterhead template implemented in plain HTML, CSS, and JavaScript**. It simulates a professional letter with a logo, top and bottom images, a gradient overlay, styled headings, and a Lorem Ipsum generator section.
+
+It was created as part of a web development assessment to practice **HTML structure, CSS styling, layout, and simple JavaScript functionality**.
+
+---
 
 ## Getting Started
 
-To get started, clone this repository and run the following commands:
+To run the project locally:
 
-```bash
-npm install
-```
-This will install the necessary dependencies for the project.
+1. Clone the repository, From this project file, using this link : https://github.com/TRISTINWATKINS/M6-Lab
 
-## Development
 
-It is recommended to use the VSCode Live Server extension to run the project
-locally. This will allow you to see changes in real-time as you make them. There
-is no need to run a build process or refresh the page manually. Additionally,
-you do not need to setup a local server to run the project.
+# Development
+
+- No build process is required.
+- Recommended to use VSCode Live Server to preview changes instantly.
+- All styling is in `style.css`; all structure is in `index.html`.
+- JavaScript for the generator is embedded directly in `index.html`.
+
+---
 
 ## Testing
 
-To run the tests for the project, run the following command:
+- Clicking the **Generate Lorem Ipsum** button displays an alert with the selected options.
+- Changing the radio buttons, number input, or checkbox will update the alert content accordingly.
 
-```bash
-npm test
-```
+---
+
+## Notes
+- The page is responsive; on smaller screens, the two-column sections collapse into a single column.
+- Fonts are imported via Google Fonts for fancy title, headings, and paragraph styling.
+- The layout is designed to match the example letterhead template from the project instructions.
+
+Overall the project is fun and easy, and really tests your CSS styling ideas and how you structutre a file/ website
